@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="pageDocumentationMain" height="580" width="1300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1300" height="580" zIndex="0" borderWidth="0px" backColor="rgba(67, 67, 67, 1)" />
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="20" left="20" width="1260" height="540" zIndex="1">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" width="300" height="50" zIndex="0" text="$IAT/SLT/doku_tab_specification" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" activeBorderColor="rgba(93, 114, 243, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1)" activeBackColor="rgba(129, 129, 129, 1)" activeTextColor="rgba(255, 255, 255, 1)" fontSize="16px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.PDFViewer" id="PDFViewer1" top="0" left="0" width="1260" height="500" zIndex="0" src="Media/Angabe_Projektarbeit_LST_WS2223.pdf" />
+          </Widgets>
+        </Widget>
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="300" height="50" zIndex="1" text="$IAT/SLT/doku_tab_elaboration" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" activeBorderColor="rgba(93, 114, 243, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1)" activeBackColor="rgba(129, 129, 129, 1)" activeTextColor="rgba(255, 255, 255, 1)" fontSize="16px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.Label" id="Label2" top="110" left="200" zIndex="0" text="Label2" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="footer" height="70" width="1300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1300" height="80" zIndex="0" borderWidth="0px" backColor="rgba(67, 67, 67, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="20" left="20" zIndex="1" text="v 1.0" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutput2" top="20" left="880" width="400" zIndex="2" backColor="rgba(255, 255, 255, 0)" textColor="rgba(255, 255, 255, 1)" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="3" x1="40" x2="1260" y1="0" y2="0" lineColor="rgba(255, 255, 255, 1)" />
+  </Widgets>
+</Content>

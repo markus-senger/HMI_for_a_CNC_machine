@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="Program">
+        <Variable Name="CncMachine">
+          <Variable Name="Enable" />
+          <Variable Name="ErrorReset" />
+          <Variable Name="Update" />
+          <Variable Name="Override" />
+          <Variable Name="RapidOverride" />
+          <Variable Name="FeedrateOverride" />
+          <Variable Name="Power" />
+          <Variable Name="Home" />
+          <Variable Name="MoveProgram" />
+          <Variable Name="Interrupt" />
+          <Variable Name="Continue" />
+          <Variable Name="Stop" />
+          <Variable Name="Jog" />
+          <Variable Name="MoveBlock" />
+          <Variable Name="SingleStep" />
+          <Variable Name="Active" />
+          <Variable Name="Error" />
+          <Variable Name="StatusID" />
+          <Variable Name="UpdateDone" />
+          <Variable Name="X" />
+          <Variable Name="Y" />
+          <Variable Name="Z" />
+          <Variable Name="PathVelocity" />
+          <Variable Name="CommandBusy" />
+          <Variable Name="CommandAborted" />
+          <Variable Name="PowerOn" />
+          <Variable Name="IsHomed" />
+          <Variable Name="MoveActive" />
+          <Variable Name="MoveInterrupted" />
+          <Variable Name="InMotion" />
+          <Variable Name="MoveDone" />
+          <Variable Name="Stopped" />
+          <Variable Name="SingleStepActive" />
+        </Variable>
+        <Variable Name="CncMachineParam">
+          <Variable Name="Jog">
+            <Variable Name="Velocity" EnableArrayElements="True" />
+            <Variable Name="CoordSystem" />
+            <Variable Name="PathLimits">
+              <Variable Name="Velocity" />
+              <Variable Name="Acceleration" />
+              <Variable Name="Deceleration" />
+              <Variable Name="Jerk" />
+            </Variable>
+          </Variable>
+          <Variable Name="ProgramName" />
+          <Variable Name="MoveProgramOptions">
+            <Variable Name="InitProgram" />
+            <Variable Name="StartMode" />
+            <Variable Name="StartPointType" />
+            <Variable Name="StartPointParameter" />
+            <Variable Name="RepositioningParameter">
+              <Variable Name="Type" />
+              <Variable Name="String" />
+              <Variable Name="AxisVelocityFactor" />
+            </Variable>
+            <Variable Name="SaveRestartData" />
+          </Variable>
+          <Variable Name="Block" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

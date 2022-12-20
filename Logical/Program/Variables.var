@@ -1,0 +1,12 @@
+VAR
+	CncMachineParam : MpCnc3AxisParType;
+	CncMachine : MpCnc3Axis;
+	fileManagerSetup : MpFileManagerUISetupType;
+	fileManagerConnect : MpFileManagerUIConnectType;
+	fileManagerConfig : MpFileManagerConfig;
+	fileManager : MpFileManagerUI;
+	mpDataRegZ : MpDataRegPar;
+	mpDataRegY : MpDataRegPar;
+	mpDataRegX : MpDataRegPar;
+	mpDataRecorderFB : MpDataRecorder;
+END_VAR

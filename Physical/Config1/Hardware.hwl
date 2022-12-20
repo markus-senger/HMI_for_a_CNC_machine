@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="10/28/2022 10:49:36" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="PC" Type="PC_any" X="100" Y="100" />
+    <Module Name="5LS189.6-1" Type="5LS189.6-1" X="418" Y="110" />
+    <Module Name="80VD100PD.C000-01" Type="80VD100PD.C000-01" X="463" Y="399" />
+    <Module Name="8JSA24.E8080D000-0" Type="8JSA24.E8080D000-0" X="463" Y="717" />
+    <Module Name="8JSA24.E8080D000-0a" Type="8JSA24.E8080D000-0" X="463" Y="583" />
+    <Module Name="80VD100PD.C000-01a" Type="80VD100PD.C000-01" X="583" Y="399" />
+    <Module Name="8JSA24.E8080D000-0b" Type="8JSA24.E8080D000-0" X="583" Y="583" />
+  </Modules>
+  <Links>
+    <Link From="5LS189.6-1" To="80VD100PD.C000-01" FromPort="IF2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="459" Y="130" />
+      <Point X="459" Y="130" />
+      <Point X="464" Y="130" />
+      <Point X="535" Y="130" />
+      <Point X="535" Y="458" />
+      <Point X="521" Y="458" />
+      <Point X="502" Y="458" />
+      <Point X="502" Y="473" />
+    </Link>
+    <Link From="80VD100PD.C000-01" To="8JSA24.E8080D000-0a" FromPort="EC1" ToPort="EC" IsRoutedByUser="False">
+      <Point X="471" Y="452" />
+      <Point X="471" Y="452" />
+      <Point X="462" Y="452" />
+      <Point X="455" Y="452" />
+      <Point X="455" Y="545" />
+      <Point X="484.5" Y="545" />
+      <Point X="484.5" Y="582.1" />
+      <Point X="484.5" Y="589.1" />
+      <Point X="484.5" Y="589.1" />
+    </Link>
+    <Link From="80VD100PD.C000-01" To="8JSA24.E8080D000-0" FromPort="EC2" ToPort="EC" IsRoutedByUser="False">
+      <Point X="485" Y="452" />
+      <Point X="485" Y="467" />
+      <Point X="462" Y="467" />
+      <Point X="448" Y="467" />
+      <Point X="448" Y="675" />
+      <Point X="484.5" Y="675" />
+      <Point X="484.5" Y="716.1" />
+      <Point X="484.5" Y="723.1" />
+      <Point X="484.5" Y="723.1" />
+    </Link>
+    <Link From="80VD100PD.C000-01" To="8JSA24.E8080D000-0a" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="482" Y="523" />
+      <Point X="482" Y="523" />
+      <Point X="482" Y="534" />
+      <Point X="482" Y="538" />
+      <Point X="512.5" Y="538" />
+      <Point X="512.5" Y="582.1" />
+      <Point X="512.5" Y="589.1" />
+      <Point X="512.5" Y="589.1" />
+    </Link>
+    <Link From="80VD100PD.C000-01" To="8JSA24.E8080D000-0" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="507" Y="523" />
+      <Point X="507" Y="523" />
+      <Point X="507" Y="534" />
+      <Point X="507" Y="531" />
+      <Point X="526.5" Y="531" />
+      <Point X="526.5" Y="545" />
+      <Point X="545" Y="545" />
+      <Point X="545" Y="675" />
+      <Point X="512.5" Y="675" />
+      <Point X="512.5" Y="716.1" />
+      <Point X="512.5" Y="723.1" />
+      <Point X="512.5" Y="723.1" />
+    </Link>
+    <Link From="80VD100PD.C000-01" To="80VD100PD.C000-01a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="512" Y="473" />
+      <Point X="512" Y="473" />
+      <Point X="521" Y="473" />
+      <Point X="535" Y="473" />
+      <Point X="535" Y="538" />
+      <Point X="655" Y="538" />
+      <Point X="655" Y="458" />
+      <Point X="641" Y="458" />
+      <Point X="622" Y="458" />
+      <Point X="622" Y="473" />
+    </Link>
+    <Link From="80VD100PD.C000-01a" To="8JSA24.E8080D000-0b" FromPort="EC1" ToPort="EC" IsRoutedByUser="False">
+      <Point X="591" Y="452" />
+      <Point X="591" Y="452" />
+      <Point X="582" Y="452" />
+      <Point X="575" Y="452" />
+      <Point X="575" Y="552" />
+      <Point X="604.5" Y="552" />
+      <Point X="604.5" Y="582.1" />
+      <Point X="604.5" Y="589.1" />
+      <Point X="604.5" Y="589.1" />
+    </Link>
+    <Link From="80VD100PD.C000-01a" To="8JSA24.E8080D000-0b" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="602" Y="523" />
+      <Point X="602" Y="523" />
+      <Point X="602" Y="534" />
+      <Point X="602" Y="545" />
+      <Point X="632.5" Y="545" />
+      <Point X="632.5" Y="582.1" />
+      <Point X="632.5" Y="589.1" />
+      <Point X="632.5" Y="589.1" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

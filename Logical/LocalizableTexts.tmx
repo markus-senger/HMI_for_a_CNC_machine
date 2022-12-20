@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/SLT</prop>
+  </header>
+  <body>
+    <tu tuid="header_button_reset_error">
+      <tuv xml:lang="fr">
+        <seg>Réinitialiser l'erreur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Fehler rücksetzen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="header_button_home">
+      <tuv xml:lang="fr">
+        <seg>Accueil</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Heim</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Home</seg>
+      </tuv>
+    </tu>
+    <tu tuid="header_button_on_off">
+      <tuv xml:lang="fr">
+        <seg>marche / arrêt</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ein / Aus</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On / Off</seg>
+      </tuv>
+    </tu>
+    <tu tuid="header_error_codes">
+      <tuv xml:lang="fr">
+        <seg>Codes d'erreur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Fehlercodes</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error codes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="header_text">
+      <tuv xml:lang="fr">
+        <seg>Centre d'usinage 3 axes</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>3-Achs Bearbeitungszentrum</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>3-axis machining center</seg>
+      </tuv>
+    </tu>
+    <tu tuid="nav_button_doku">
+      <tuv xml:lang="fr">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Dokumentation</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Documentation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="nav_button_CncEditor">
+      <tuv xml:lang="fr">
+        <seg>Éditeur de programmes</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Programmeditor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Program editor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="nav_button_control">
+      <tuv xml:lang="fr">
+        <seg>Commande</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Steuerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="doku_tab_specification">
+      <tuv xml:lang="fr">
+        <seg>Indication</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Angabe</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Specification</seg>
+      </tuv>
+    </tu>
+    <tu tuid="doku_tab_elaboration">
+      <tuv xml:lang="fr">
+        <seg>Élaboration</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ausarbeitung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Elaboration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="editor_button_open">
+      <tuv xml:lang="fr">
+        <seg>Fichier ouvert</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Datei öffnen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Open File</seg>
+      </tuv>
+    </tu>
+    <tu tuid="editor_button_save">
+      <tuv xml:lang="fr">
+        <seg>Enregistrer sous</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Speichern unter</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save as</seg>
+      </tuv>
+    </tu>
+    <tu tuid="editor_button_run">
+      <tuv xml:lang="fr">
+        <seg>Exécuter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ausführen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
