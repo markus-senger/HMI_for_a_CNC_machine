@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionsSet id="expression_0" xmlns="http://www.br-automation.com/iat2015/expression/engineering/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Expressions>
+		<Expression id="Not" xsi:type="content" contentRefId="main" type="NotEnableControl" />
+		<Expression id="incSpeedJoyX" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedJoyY" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedJoyZ" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedInX" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedInY" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedInZ" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+		<Expression id="incSpeedInXYZ" xsi:type="content" contentRefId="main" type="IncSpeedFactor" />
+  </Expressions>
+</ExpressionsSet>

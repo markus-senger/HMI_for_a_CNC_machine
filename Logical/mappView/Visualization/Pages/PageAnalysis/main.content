@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="pageAnalysisMain" height="580" width="1300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1300" height="580" zIndex="0" borderWidth="0px" backColor="rgba(67, 67, 67, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="35" left="340" width="20" height="20" zIndex="1" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="30" left="360" width="40" zIndex="2" text="X" textColor="rgba(255, 255, 255, 1)" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="35" left="420" width="20" height="20" zIndex="3" backColor="rgba(0, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="30" left="440" width="40" zIndex="4" text="Y" textColor="rgba(255, 255, 255, 1)" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="35" left="500" width="20" height="20" zIndex="5" backColor="rgba(0, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="30" left="520" width="40" zIndex="6" text="Z" textColor="rgba(255, 255, 255, 1)" fontSize="16px" bold="true" />
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="60" left="60" width="1180" height="500" zIndex="7" updateBufferTime="200" backColor="rgba(67, 67, 67, 1)" chartColor="rgba(255, 255, 255, 1)">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" max="500" min="-500" unit="{'metric':'MMT','imperial':'INH','imperial-us':'INH'}" textColor="rgba(255, 255, 255, 1)" titleTextColor="rgba(255, 255, 255, 1)" />
+          <Element id="yAxis2" max="500" min="-500" unit="{'metric':'C16','imperial':'M58','imperial-us':'M58'}" textColor="rgba(255, 255, 255, 1)" titleTextColor="rgba(255, 255, 255, 1)" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" textColor="rgba(255, 255, 255, 1)" />
+        </xAxis>
+        <graph>
+          <Element id="graph1" yAxisReference="yAxis1" />
+          <Element id="graph2" yAxisReference="yAxis1" lineColor="rgba(0, 255, 0, 1)" />
+          <Element id="graph3" yAxisReference="yAxis1" lineColor="rgba(0, 0, 255, 1)" />
+          <Element id="graph4" yAxisReference="yAxis2" lineColor="rgba(255, 0, 255, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="ButtonOpen" top="20" left="880" width="180" height="40" zIndex="8" text="$IAT/SLT/analyse_button_stop" borderWidth="0px" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" mouseDownBorderWidth="0px" mouseDownBackColor="rgba(93, 114, 243, 1)" mouseDownTextColor="rgba(255, 255, 255, 1)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Button" id="ButtonOpen1" top="20" left="1080" width="180" height="40" zIndex="9" text="$IAT/SLT/analyse_button_start" borderWidth="0px" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" mouseDownBorderWidth="0px" mouseDownBackColor="rgba(93, 114, 243, 1)" mouseDownTextColor="rgba(255, 255, 255, 1)" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle5" top="35" left="580" width="20" height="20" zIndex="10" backColor="rgba(255, 0, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="30" left="600" width="260" zIndex="11" text="$IAT/SLT/analyse_velocity_override_label" textColor="rgba(255, 255, 255, 1)" fontSize="16px" bold="true" />
+  </Widgets>
+</Content>

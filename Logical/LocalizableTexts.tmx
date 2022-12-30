@@ -82,6 +82,29 @@
         <seg>Program editor</seg>
       </tuv>
     </tu>
+    <tu tuid="nav_button_alarm">
+      <tuv xml:lang="fr">
+        <seg>
+Gestion des alarmes</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alarmbehandlung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm handling</seg>
+      </tuv>
+    </tu>
+    <tu tuid="nav_button_Analysis">
+      <tuv xml:lang="fr">
+        <seg>Une analyse</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Analyse</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analysis</seg>
+      </tuv>
+    </tu>
     <tu tuid="nav_button_control">
       <tuv xml:lang="fr">
         <seg>Commande</seg>
@@ -115,6 +138,40 @@
         <seg>Elaboration</seg>
       </tuv>
     </tu>
+    <tu tuid="editor_button_restart">
+      <tuv xml:lang="fr">
+        <seg>Redémarrer</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Neustart</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Restart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="editor_button_resume">
+      <tuv xml:lang="fr">
+        <seg>Continuez</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Fortsetzen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>
+Continue</seg>
+      </tuv>
+    </tu>
+    <tu tuid="editor_button_pause">
+      <tuv xml:lang="fr">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Break</seg>
+      </tuv>
+    </tu>
     <tu tuid="editor_button_open">
       <tuv xml:lang="fr">
         <seg>Fichier ouvert</seg>
@@ -146,6 +203,146 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>Run</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_tab_joystick">
+      <tuv xml:lang="fr">
+        <seg>Manette</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>
+Joystick</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Joystick</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_tab_inputFields">
+      <tuv xml:lang="fr">
+        <seg>
+Champs de saisie</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Eingabefelder</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Input fields</seg>
+      </tuv>
+    </tu>
+    <tu tuid="disabled_label">
+      <tuv xml:lang="fr">
+        <seg>désactivé</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>deaktiviert</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>disabled</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_enable_control_checkBox">
+      <tuv xml:lang="fr">
+        <seg>activer le contrôle</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Steuerung aktivieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>enable control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_speed_factor">
+      <tuv xml:lang="fr">
+        <seg>
+Sensibilité</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Empfindlichkeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>
+Sensitivity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_inputField_LabelX">
+      <tuv xml:lang="fr">
+        <seg>
+Entrée X:</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Eingabe X:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Input X:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_inputField_LabelY">
+      <tuv xml:lang="fr">
+        <seg>
+Entrée Y:</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Eingabe Y:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Input Y:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_inputField_LabelZ">
+      <tuv xml:lang="fr">
+        <seg>
+Entrée Z:</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Eingabe Z:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Input Z:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="analyse_button_stop">
+      <tuv xml:lang="fr">
+        <seg>diagramme d'arrêt</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Diagramm stoppen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>
+stop chart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="analyse_button_start">
+      <tuv xml:lang="fr">
+        <seg>Tableau de départ</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Diagramm starten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>start chart</seg>
+      </tuv>
+    </tu>
+    <tu tuid="analyse_velocity_override_label">
+      <tuv xml:lang="fr">
+        <seg>vitesse de trajectoire</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Bahngeschwindigkeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>path velocity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="footer_button_about">
+      <tuv xml:lang="fr">
+        <seg>À propos</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Über</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>About</seg>
       </tuv>
     </tu>
   </body>

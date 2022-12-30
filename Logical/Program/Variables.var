@@ -9,4 +9,10 @@ VAR
 	mpDataRegY : MpDataRegPar;
 	mpDataRegX : MpDataRegPar;
 	mpDataRecorderFB : MpDataRecorder;
+	enableControl : BOOL;
+	btnIsOnOff : STRING[20];
+	ledPowerOn : STRING[20];
+	ledIsHome : STRING[20];
+	ledIsError : STRING[20];
+	speedFactor : UINT;
 END_VAR

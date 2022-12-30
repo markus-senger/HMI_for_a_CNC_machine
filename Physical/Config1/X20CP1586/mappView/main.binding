@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="main_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="CheckBox1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Joystick1" attribute="enable" />
+</Binding>
+
+<Binding mode="oneWay">
+	<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+	<Target xsi:type="expression" refId="Not" attribute="inA" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="expression" refId="Not" attribute="result" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.X" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput1" attribute="node" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Y" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput2" attribute="node" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Z" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="BasicSlider1" attribute="enable" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="expression" refId="Not" attribute="result" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="main" widgetRefId="BasicSlider2" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput7" attribute="value" />
+</Binding>
+
+<Binding mode="oneWay">
+	<Source xsi:type="brease" contentRefId="main" widgetRefId="Joystick1" attribute="xValue" />
+	<Target xsi:type="expression" refId="incSpeedJoyX" attribute="inA" />
+</Binding>
+<Binding mode="oneWay">
+	<Source xsi:type="opcUa" refId="::Program:speedFactor" attribute="value" />
+	<Target xsi:type="expression" refId="incSpeedJoyX" attribute="inB" />
+</Binding>
+<Binding mode="oneWay">
+	<Source xsi:type="expression" refId="incSpeedJoyX" attribute="result" />
+	<Target xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[0]" attribute="value" />
+</Binding>
+
+<Binding mode="oneWay">
+	<Source xsi:type="brease" contentRefId="main" widgetRefId="Joystick1" attribute="yValue" />
+	<Target xsi:type="expression" refId="incSpeedJoyY" attribute="inA" />
+</Binding>
+<Binding mode="oneWay">
+	<Source xsi:type="opcUa" refId="::Program:speedFactor" attribute="value" />
+	<Target xsi:type="expression" refId="incSpeedJoyY" attribute="inB" />
+</Binding>
+<Binding mode="oneWay">
+			<Source xsi:type="expression" refId="incSpeedJoyY" attribute="result" />
+<Target xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[1]" attribute="value" />
+		</Binding>
+		
+<Binding mode="oneWay">
+	<Source xsi:type="brease" contentRefId="main" widgetRefId="BasicSlider1" attribute="value" />
+	<Target xsi:type="expression" refId="incSpeedJoyZ" attribute="inA" />
+</Binding>
+		<Binding mode="oneWay">
+	<Source xsi:type="opcUa" refId="::Program:speedFactor" attribute="value" />
+	<Target xsi:type="expression" refId="incSpeedJoyZ" attribute="inB" />
+</Binding>
+<Binding mode="oneWay">
+	<Source xsi:type="expression" refId="incSpeedJoyZ" attribute="result" />
+	<Target xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[2]" attribute="value" />
+		</Binding>	
+		
+		
+			
+		<Binding mode="oneWay">
+			<Source xsi:type="brease" contentRefId="main" widgetRefId="BasicSlider2" attribute="node" />
+			<Target xsi:type="opcUa" refId="::Program:speedFactor" attribute="node" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[2]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericInput3" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[1]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericInput2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Program:CncMachineParam.Jog.Velocity[0]" attribute="value" />
+			<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericInput1" attribute="value" />
+		</Binding>
+
+		
+		
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Z" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput6" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Y" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput5" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.X" attribute="node" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="NumericOutput4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Button1" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Button2" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Button3" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Button4" attribute="enable" />
+</Binding>
+	</Bindings>
+</BindingsSet>

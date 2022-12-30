@@ -5,11 +5,19 @@
     <Page refId="pageMain" />
     <Page refId="pageCNCEditor" />
     <Page refId="pageDocumentation" />
+    <Page refId="pageAnalysis" />
+    <Page refId="pageAlarm" />
   </Pages>
   <Navigations />
-  <BindingsSets />
+  <BindingsSets>
+    <BindingsSet refId="header_binding" />
+    <BindingsSet refId="main_binding" />
+    <BindingsSet refId="pageAnalysisMain_binding" />
+  </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="pageCncEditiorMain_eventbinding" />
+    <EventBindingsSet refId="main_eventbinding" />
+    <EventBindingsSet refId="pageAnalysisMain_eventbinding" />
   </EventBindingsSets>
   <Dialogs />
   <Contents>
@@ -21,10 +29,18 @@
     <Content refId="main" />
     <Content refId="pageCncEditiorMain" />
     <Content refId="pageDocumentationMain" />
+    <Content refId="pageAnalysisMain" />
+    <Content refId="pageAlarmMain" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />
-  <ExpressionsSets />
+  <ExpressionsSets>
+    <ExpressionsSet refId="expression_0" />
+  </ExpressionsSets>
+  <StartTheme themeRefId="BuRThemeFlat1" />
+  <Themes>
+    <Theme refId="BuRThemeFlat1" />
+  </Themes>
   <Configurations>
     <Configuration key="activityCount" value="false" />
     <Gestures>

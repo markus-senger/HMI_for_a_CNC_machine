@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="header_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:ledPowerOn" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="Ellipse1" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Power" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:ledIsHome" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="Ellipse2" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Home" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="MomentaryPushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.ErrorReset" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="MomentaryPushButton2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Error" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="MomentaryPushButton2" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:ledIsError" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="Ellipse3" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Info.Diag.StatusID.Code" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="NumericOutput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:CncMachine.Info.Diag.Internal.Code" attribute="value" />
+<Target xsi:type="brease" contentRefId="header" widgetRefId="NumericOutput2" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

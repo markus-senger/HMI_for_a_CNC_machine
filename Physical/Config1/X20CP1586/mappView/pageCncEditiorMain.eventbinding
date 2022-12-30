@@ -31,5 +31,61 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="pageCncEditiorMain.ButtonPause.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="pageCncEditiorMain" widgetRefId="ButtonPause" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.MotionPad.Action" contentRefId="pageCncEditiorMain" widgetRefId="MotionPad1">
+                <Method xsi:type="widgets.brease.MotionPad.Action.Pause" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="pageCncEditiorMain" widgetRefId="Image1">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.Button.Action" contentRefId="pageCncEditiorMain" widgetRefId="ButtonResume">
+                <Method xsi:type="widgets.brease.Button.Action.SetEnable" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="pageCncEditiorMain.ButtonResume.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="pageCncEditiorMain" widgetRefId="ButtonResume" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="widgets.brease.MotionPad.Action" contentRefId="pageCncEditiorMain" widgetRefId="MotionPad1">
+                <Method xsi:type="widgets.brease.MotionPad.Action.Resume" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="widgets.brease.Image.Action" contentRefId="pageCncEditiorMain" widgetRefId="Image1">
+                <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="widgets.brease.Button.Action" contentRefId="pageCncEditiorMain" widgetRefId="ButtonResume">
+                <Method xsi:type="widgets.brease.Button.Action.SetEnable" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

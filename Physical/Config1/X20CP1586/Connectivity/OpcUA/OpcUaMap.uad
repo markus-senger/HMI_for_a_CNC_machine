@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OpcUaSource FileVersion="7" ArVersion="C4.72">
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="C4.73">
   <Aliases>
     <ACLAliases />
     <EURangeViolationAliases />
@@ -29,9 +30,9 @@
           <Variable Name="Error" />
           <Variable Name="StatusID" />
           <Variable Name="UpdateDone" />
-          <Variable Name="X" />
-          <Variable Name="Y" />
-          <Variable Name="Z" />
+          <Variable Name="X" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer1" />
+          <Variable Name="Y" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer2" />
+          <Variable Name="Z" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer3" />
           <Variable Name="PathVelocity" />
           <Variable Name="CommandBusy" />
           <Variable Name="CommandAborted" />
@@ -43,10 +44,20 @@
           <Variable Name="MoveDone" />
           <Variable Name="Stopped" />
           <Variable Name="SingleStepActive" />
+          <Variable Name="Info">
+            <Variable Name="Diag">
+              <Variable Name="StatusID">
+                <Variable Name="Code" />
+              </Variable>
+              <Variable Name="Internal">
+                <Variable Name="Code" />
+              </Variable>
+            </Variable>
+          </Variable>
         </Variable>
         <Variable Name="CncMachineParam">
           <Variable Name="Jog">
-            <Variable Name="Velocity" EnableArrayElements="True" />
+            <Variable Name="Velocity" RecursiveEnable="1" />
             <Variable Name="CoordSystem" />
             <Variable Name="PathLimits">
               <Variable Name="Velocity" />
@@ -70,6 +81,12 @@
           </Variable>
           <Variable Name="Block" />
         </Variable>
+        <Variable Name="enableControl" />
+        <Variable Name="btnIsOnOff" />
+        <Variable Name="ledIsError" />
+        <Variable Name="ledIsHome" />
+        <Variable Name="ledPowerOn" />
+        <Variable Name="speedFactor" />
       </Task>
     </Module>
   </DefaultView>

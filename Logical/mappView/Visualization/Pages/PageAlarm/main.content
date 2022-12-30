@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="pageAlarmMain" height="580" width="1300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="1300" height="580" zIndex="0" borderWidth="0px" backColor="rgba(67, 67, 67, 1)" />
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="120" left="220" zIndex="1" borderColor="rgba(93, 114, 243, 1)" backColorSelectedRow="rgba(93, 114, 243, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" zIndex="0" text="AlarmListItem1" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

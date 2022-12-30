@@ -6,5 +6,7 @@
     <Object Type="Package">pageMain</Object>
     <Object Type="Package">PageCNCEditor</Object>
     <Object Type="Package">PageDocumentation</Object>
+    <Object Type="Package">PageAnalysis</Object>
+    <Object Type="Package">PageAlarm</Object>
   </Objects>
 </Package>

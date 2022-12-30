@@ -4,5 +4,7 @@
   <Objects>
     <Object Type="File">logo.png</Object>
     <Object Type="File">Angabe_Projektarbeit_LST_WS2223.pdf</Object>
+    <Object Type="File">CheckBoxImage.png</Object>
+    <Object Type="File">Break_Symbol.png</Object>
   </Objects>
 </Package>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionTypeSet id="expressiontype_0" xmlns="http://www.br-automation.com/iat2016/expressionType/v1">
+  <ExpressionTypes>
+	<ExpressionType name="NotEnableControl" datatype="BOOL"> 
+		<Operands> 
+			<Operand name="inA" datatype="BOOL" /> 
+		</Operands> 
+		<Operation> 
+			NOT inA 
+		</Operation> 
+	</ExpressionType>
+	<ExpressionType name="IncSpeedFactor" datatype="ANY_REAL"> 
+		<Operands> 
+			<Operand name="inA" datatype="ANY_REAL" /> 
+			<Operand name="inB" datatype="ANY_INT" /> 
+		</Operands> 
+		<Operation> 
+			inA * inB 
+		</Operation> 
+	</ExpressionType>
+  </ExpressionTypes>
+</ExpressionTypeSet>
