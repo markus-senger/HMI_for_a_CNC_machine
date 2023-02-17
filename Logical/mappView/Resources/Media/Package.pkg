@@ -11,5 +11,6 @@
     <Object Type="File">redalert.png</Object>
     <Object Type="File">userLoginImage.png</Object>
     <Object Type="File">settingsImage.jpg</Object>
+    <Object Type="File">Dokumentation.pdf</Object>
   </Objects>
 </Package>

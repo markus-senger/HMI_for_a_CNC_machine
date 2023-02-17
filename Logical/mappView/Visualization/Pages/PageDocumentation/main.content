@@ -11,7 +11,7 @@
         </Widget>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="300" height="50" zIndex="1" text="$IAT/SLT/doku_tab_elaboration" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" activeBorderColor="rgba(93, 114, 243, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1)" activeBackColor="rgba(129, 129, 129, 1)" activeTextColor="rgba(255, 255, 255, 1)" fontSize="16px">
           <Widgets>
-            <Widget xsi:type="widgets.brease.Label" id="Label2" top="110" left="200" zIndex="0" text="Label2" />
+            <Widget xsi:type="widgets.brease.PDFViewer" id="PDFViewer2" top="0" left="0" width="1260" height="500" zIndex="0" src="Media/Dokumentation.pdf" />
           </Widgets>
         </Widget>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="300" height="50" zIndex="2" text="$IAT/SLT/doku_tab_log" backColor="rgba(129, 129, 129, 1)" textColor="rgba(255, 255, 255, 1)" activeBorderColor="rgba(93, 114, 243, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1) rgba(91, 124, 112, 1)" activeBackColor="rgba(129, 129, 129, 1)" activeTextColor="rgba(255, 255, 255, 1)" fontSize="16px">
