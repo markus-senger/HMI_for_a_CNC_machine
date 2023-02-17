@@ -15,4 +15,19 @@ VAR
 	ledIsHome : STRING[20];
 	ledIsError : STRING[20];
 	speedFactor : UINT;
+	mpAlarm : MpAlarmXCore;
+	acknowledge : BOOL;
+	reset : BOOL;
+	endStopReachedX : BOOL;
+	endStopReachedY : BOOL;
+	endStopReachedZ : BOOL;
+	XMinLimit : REAL;
+	XMaxLimit : REAL;
+	YMinLimit : REAL;
+	YMaxLimit : REAL;
+	ZMinLimit : REAL;
+	ZMaxLimit : REAL;
+	xLimitAlarmActive : BOOL;
+	zLimitAlarmActive : BOOL;
+	yLimitAlarmActive : BOOL;
 END_VAR

@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
 <Configuration>
   <Element ID="gCncXYZ" Type="axesgroup">
     <Selector ID="Type" Value="PathGenAxesGroup">
@@ -59,6 +60,6 @@
         <Property ID="FeatureRef[2]" Value="Feature_Jogging" />
       </Group>
     </Selector>
-    <Selector ID="Alarms" Value="None" />
+    <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
 </Configuration>

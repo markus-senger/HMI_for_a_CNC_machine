@@ -21,7 +21,7 @@
         <seg>Accueil</seg>
       </tuv>
       <tuv xml:lang="de">
-        <seg>Heim</seg>
+        <seg>Home</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Home</seg>
@@ -138,6 +138,53 @@ Gestion des alarmes</seg>
         <seg>Elaboration</seg>
       </tuv>
     </tu>
+    <tu tuid="doku_tab_log">
+      <tuv xml:lang="fr">
+        <seg>Enregistrement</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aufzeichnung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Record</seg>
+      </tuv>
+    </tu>
+    <tu tuid="doku_tab_log_toggleRecord">
+      <tuv xml:lang="fr">
+        <seg>Début / Fin 
+de l'enregistrement</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Start / Stop
+Aufzeichnung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start / Stop
+Record</seg>
+      </tuv>
+    </tu>
+    <tu tuid="doku_tab_log_label_recordTrue">
+      <tuv xml:lang="fr">
+        <seg>Enregistrement en cours</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aufzeichnung läuft</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recording in progress</seg>
+      </tuv>
+    </tu>
+    <tu tuid="doku_tab_log_recordFalse">
+      <tuv xml:lang="fr">
+        <seg>L'enregistrement ne fonctionne pas</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aufzeichnung läuft nicht</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recording not running</seg>
+      </tuv>
+    </tu>
     <tu tuid="editor_button_restart">
       <tuv xml:lang="fr">
         <seg>Redémarrer</seg>
@@ -215,6 +262,17 @@ Joystick</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Joystick</seg>
+      </tuv>
+    </tu>
+    <tu tuid="control_tab_endStopReached">
+      <tuv xml:lang="fr">
+        <seg>Fin de course atteinte</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Endanschlag erreicht</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>End stop reached</seg>
       </tuv>
     </tu>
     <tu tuid="control_tab_inputFields">
@@ -343,6 +401,119 @@ stop chart</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>About</seg>
+      </tuv>
+    </tu>
+    <tu tuid="login_as_label">
+      <tuv xml:lang="fr">
+        <seg>Connecté en tant que</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Eingeloggt als</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logged in as</seg>
+      </tuv>
+    </tu>
+    <tu tuid="login_userlist_button">
+      <tuv xml:lang="fr">
+        <seg>Liste des utilisateurs</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benutzerliste</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User list</seg>
+      </tuv>
+    </tu>
+    <tu tuid="login_label_login">
+      <tuv xml:lang="fr">
+        <seg>Se connecter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Einloggen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="login_label_logout">
+      <tuv xml:lang="fr">
+        <seg>Se déconnecter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ausloggen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="userList_col_userName">
+      <tuv xml:lang="fr">
+        <seg>Nom</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="userList_col_role">
+      <tuv xml:lang="fr">
+        <seg>Rôle</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Rolle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Role</seg>
+      </tuv>
+    </tu>
+    <tu tuid="userlist_col_lastLogin">
+      <tuv xml:lang="fr">
+        <seg>Dernière connexion</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Letzte Anmeldung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Last Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="alarm_button_ackn">
+      <tuv xml:lang="fr">
+        <seg>Accuser réception</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Bestätigen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="settings_label_endStop">
+      <tuv xml:lang="fr">
+        <seg>Régler les fins de course du logiciel</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Softwareendschalter einstellen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set software limit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="settings_label_endStop_warning">
+      <tuv xml:lang="fr">
+        <seg>Attention selon la vitesse d'avancement, la machine peut 
+aller un peu plus loin que les fins de course logicielles.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Achtung je nach Fahrgeschwindigkeit kann die Maschine 
+etwas weiter als die Softwareendschalter fahren.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Caution depending on the driving speed, the machine can drive
+a little further than the software limit switches.</seg>
       </tuv>
     </tu>
   </body>

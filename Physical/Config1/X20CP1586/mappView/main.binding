@@ -138,5 +138,29 @@
 <Source xsi:type="opcUa" refId="::Program:enableControl" attribute="value" />
 <Target xsi:type="brease" contentRefId="main" widgetRefId="Button4" attribute="enable" />
 </Binding>
-	</Bindings>
+		<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label18" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedY" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label17" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedX" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label16" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedX" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label19" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedY" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label20" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Program:endStopReachedZ" attribute="value" />
+<Target xsi:type="brease" contentRefId="main" widgetRefId="Label21" attribute="visible" />
+</Binding>
+</Bindings>
 </BindingsSet>

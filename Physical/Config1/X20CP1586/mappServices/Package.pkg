@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File">Config_5.mpfilemanager</Object>
     <Object Type="File">Config.mpdatarecorder</Object>
+    <Object Type="File">Config_6.mpalarmxcore</Object>
   </Objects>
 </Package>

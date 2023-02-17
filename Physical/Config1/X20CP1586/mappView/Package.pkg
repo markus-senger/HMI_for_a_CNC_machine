@@ -11,5 +11,12 @@
     <Object Type="File">main.eventbinding</Object>
     <Object Type="File">pageAnalysisMain.binding</Object>
     <Object Type="File">pageAnalysisMain.eventbinding</Object>
+    <Object Type="File">pageAlarmMain.binding</Object>
+    <Object Type="File">pageAlarmMain.eventbinding</Object>
+    <Object Type="File">login.eventbinding</Object>
+    <Object Type="File">contLogin.eventbinding</Object>
+    <Object Type="File">pageDocumentationMain.eventbinding</Object>
+    <Object Type="File">pageDocumentationMain.binding</Object>
+    <Object Type="File">content_1.binding</Object>
   </Objects>
 </Package>

@@ -11,15 +11,25 @@
   <Navigations />
   <BindingsSets>
     <BindingsSet refId="header_binding" />
-    <BindingsSet refId="main_binding" />
     <BindingsSet refId="pageAnalysisMain_binding" />
+    <BindingsSet refId="pageAlarmMain_binding" />
+    <BindingsSet refId="pageDocumentationMain_binding" />
+    <BindingsSet refId="main_binding" />
+    <BindingsSet refId="content_1_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="pageCncEditiorMain_eventbinding" />
     <EventBindingsSet refId="main_eventbinding" />
     <EventBindingsSet refId="pageAnalysisMain_eventbinding" />
+    <EventBindingsSet refId="pageAlarmMain_eventbinding" />
+    <EventBindingsSet refId="login_eventbinding" />
+    <EventBindingsSet refId="contLogin_eventbinding" />
+    <EventBindingsSet refId="pageDocumentationMain_eventbinding" />
   </EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="dialog_0" />
+    <Dialog refId="dialog_2" />
+  </Dialogs>
   <Contents>
     <Content refId="login" />
     <Content refId="footer" />
@@ -31,6 +41,8 @@
     <Content refId="pageDocumentationMain" />
     <Content refId="pageAnalysisMain" />
     <Content refId="pageAlarmMain" />
+    <Content refId="contLogin" />
+    <Content refId="content_1" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

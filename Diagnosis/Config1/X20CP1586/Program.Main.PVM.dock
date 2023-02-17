@@ -1,39 +1,39 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=29 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=108 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                               CncMachine                               MpCnc3Axis    0 "                                                               *"    0   24    1    0    1    1         
-                                  MpLink                                    UDINT    0 "                                                       126203608"    1    7    1   10    0    0         
-                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                              Parameters                                    UDINT    0 "                                                       209873888"    1    7    1   10    0    0         
-                                  Update                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                Override                                     REAL    0 "                                                           100.0"    1    8    1   10    0    0         
-                           RapidOverride                                     REAL    0 "                                                           100.0"    1    8    1   10    0    0         
-                        FeedrateOverride                                     REAL    0 "                                                           100.0"    1    8    1   10    0    0         
-                                   Power                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                                    Home                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                             MoveProgram                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                               Interrupt                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                Continue                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                    Stop                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                     Jog                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                               MoveBlock                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                              SingleStep                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
-                              UpdateDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                       X                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
-                                       Y                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
-                                       Z                                    LREAL    0 "                                                             0.0"    1   14    1   10    0    0         
-                            PathVelocity                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
-                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                          CommandAborted                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                 PowerOn                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                                 IsHomed                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
-                              MoveActive                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                         MoveInterrupted                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                                InMotion                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  MpLink                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              Parameters                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Update                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Override                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                           RapidOverride                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        FeedrateOverride                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                                   Power                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Home                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             MoveProgram                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               Interrupt                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Continue                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                     Jog                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               MoveBlock                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              SingleStep                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                              UpdateDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                       X                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                       Y                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                       Z                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                            PathVelocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          CommandAborted                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 PowerOn                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 IsHomed                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              MoveActive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                         MoveInterrupted                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                InMotion                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
                                 MoveDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
                                  Stopped                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
                         SingleStepActive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
@@ -89,3 +89,62 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                 Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
                                  pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
                                    State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              mpDataRegX                             MpDataRegPar    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  PVName                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                    Unit                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                             Description                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                             ScaleFactor                                     REAL    0 "                                                             1.0"    1    8    1   10    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                                    Info                           MpDataInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                                    Diag                           MpDataDiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                       MpDataStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpDA
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
+                                 pObject                                    UDINT    0 "                                                       169532152"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               3"    2    7    1   10    0    0         
+                        mpDataRecorderFB                           MpDataRecorder    0 "                                                               *"    0   24    1    0    1    1         
+                                  MpLink                                    UDINT    0 "                                                       119742676"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Header                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                              DeviceName                                    UDINT    0 "                                                       209776167"    1    7    1   10    0    0         
+                            SamplingTime                                     TIME    0 "                                                           T#0ms"    1   12    1    1    0    0         
+                              RecordMode                                     DINT    0 "                                                               2"    1    4    1   10    0    0 e,0,mpDA
+
+                                  Record                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Trigger                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                SnapShot                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               Recording                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              RecordDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                            SnapShotDone                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Info                   MpDataRecorderInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                               FileCount                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                         CurrentFileName                               STRING[50]    0 "                                                              ''"    2    9   51    1    0    0         
+                         CurrentFileSize                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                       CurrentBufferSize                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                       RegisteredPVCount                                     UINT    0 "                                                               3"    2    6    1   10    0    0         
+                            TotalSamples                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                      ValueOutsideLimits                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                    Diag                           MpDataDiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                       MpDataStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpDA
+
+                                Severity                                     DINT    0 "                                                               0"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               0"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
+                                 pObject                                    UDINT    0 "                                                       169526488"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               3"    2    7    1   10    0    0         

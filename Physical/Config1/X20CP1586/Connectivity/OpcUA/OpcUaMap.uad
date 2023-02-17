@@ -2,14 +2,25 @@
 <?AutomationStudio FileVersion="4.9"?>
 <OpcUaSource FileVersion="9" ArVersion="C4.73">
   <Aliases>
-    <ACLAliases />
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Everyone" Access="0x005F" />
+        <ACE RoleName="Administrators" Access="0x017F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleName="Everyone" Access="0x017F" />
+        <ACE RoleName="Administrators" Access="0x017F" />
+      </ACL>
+    </ACLAliases>
     <EURangeViolationAliases />
     <EURangesAliases />
-    <EngineeringUnitAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="5066068" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millimetre" Symbol="mm" />
+    </EngineeringUnitAliases>
   </Aliases>
-  <DefaultView>
+  <DefaultView AclId="1">
     <Module Name="&lt;Default&gt;">
-      <Task Name="Program">
+      <Task AclId="2" AclInherit="2" Name="Program">
         <Variable Name="CncMachine">
           <Variable Name="Enable" />
           <Variable Name="ErrorReset" />
@@ -30,9 +41,9 @@
           <Variable Name="Error" />
           <Variable Name="StatusID" />
           <Variable Name="UpdateDone" />
-          <Variable Name="X" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer1" />
-          <Variable Name="Y" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer2" />
-          <Variable Name="Z" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer3" />
+          <Variable Name="X" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer1" EngineeringUnitId="1" />
+          <Variable Name="Y" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer2" EngineeringUnitId="1" />
+          <Variable Name="Z" Historizing="True" HistoryBufferSize="2000" HistorySamplingInterval="Timer3" EngineeringUnitId="1" />
           <Variable Name="PathVelocity" />
           <Variable Name="CommandBusy" />
           <Variable Name="CommandAborted" />
@@ -87,6 +98,21 @@
         <Variable Name="ledIsHome" />
         <Variable Name="ledPowerOn" />
         <Variable Name="speedFactor" />
+        <Variable Name="mpDataRecorderFB">
+          <Variable Name="Record" />
+        </Variable>
+        <Variable Name="endStopReachedX" />
+        <Variable Name="endStopReachedY" />
+        <Variable Name="endStopReachedZ" />
+        <Variable Name="XMaxLimit" />
+        <Variable Name="XMinLimit" />
+        <Variable Name="YMaxLimit" />
+        <Variable Name="YMinLimit" />
+        <Variable Name="ZMaxLimit" />
+        <Variable Name="ZMinLimit" />
+        <Variable Name="mpAlarm">
+          <Variable Name="ErrorReset" />
+        </Variable>
       </Task>
     </Module>
   </DefaultView>

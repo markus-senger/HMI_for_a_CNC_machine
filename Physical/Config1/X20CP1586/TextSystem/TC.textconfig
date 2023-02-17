@@ -4,7 +4,7 @@
   <Element ID="TextConfig" Type="TextConfig">
     <Group ID="Languages">
       <Property ID="UserDefaultLanguage" Value="de" />
-      <Property ID="UserFallbackLanguage" Value="de" />
+      <Property ID="UserFallbackLanguage" Value="en" />
       <Group ID="TargetLanguages">
         <Property ID="TargetLanguage[1]" Value="de" />
         <Property ID="TargetLanguage[2]" Value="en" />
@@ -13,6 +13,7 @@
     </Group>
     <Group ID="TargetFiles">
       <Property ID="TargetFile[1]" Value="LocalizableTexts.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.Resources.Texts.AlarmList.tmx" />
     </Group>
   </Element>
 </Configuration>

@@ -1,9 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="Anonymous" Type="User">               
-    <Property ID="UserID" Value="1" />    
+  <Element ID="Anonymous" Type="User">
+    <Property ID="UserID" Value="1" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Admin" Type="User">
+    <Property ID="UserID" Value="2" />
+    <Property ID="Password" Value="uidbcyCdv7d/o2mZTV9y2Ksm+LsTXY9nVyu2vzJsSnnZ8gBkWy8=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrators" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Klaus" Type="User">
+    <Property ID="UserID" Value="3" />
+    <Property ID="Password" Value="cPe16QMb5kTdEBTy8b8TX+L7ycvnOp8Q4COyu63eq4xuuATCvZI=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Operator" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Fredi" Type="User">
+    <Property ID="UserID" Value="4" />
+    <Property ID="Password" Value="7jRGz1WPEI8PPj6FFB4cXIu6MGPONm9tictASFTS4u2P3c4jBp0=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="OperatorLite" />
+      <Property ID="Role[2]" Value="Everyone" />
     </Group>
   </Element>
 </Configuration>

@@ -6,5 +6,10 @@
     <Object Type="File">Angabe_Projektarbeit_LST_WS2223.pdf</Object>
     <Object Type="File">CheckBoxImage.png</Object>
     <Object Type="File">Break_Symbol.png</Object>
+    <Object Type="File">alertyellow.png</Object>
+    <Object Type="File">greenalert.png</Object>
+    <Object Type="File">redalert.png</Object>
+    <Object Type="File">userLoginImage.png</Object>
+    <Object Type="File">settingsImage.jpg</Object>
   </Objects>
 </Package>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="limitX" />
+        <Property ID="Message" Value="{$IAT/AlarmList/limitX}: {&amp;actPosX}" />
+        <Property ID="Code" Value="1234" />
+        <Property ID="Severity" Value="10" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="limitY" />
+        <Property ID="Message" Value="{$IAT/AlarmList/limitY}: {&amp;actPosY}" />
+        <Property ID="Code" Value="1235" />
+        <Property ID="Severity" Value="10" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="limitZ" />
+        <Property ID="Message" Value="{$IAT/AlarmList/limitZ}: {&amp;actPosZ}" />
+        <Property ID="Code" Value="1236" />
+        <Property ID="Severity" Value="10" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Snippets">
+      <Group ID="[0]">
+        <Property ID="Key" Value="actPosX" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::Program:CncMachine.X" />
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Key" Value="actPosY" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::Program:CncMachine.Y" />
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Key" Value="actPosZ" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::Program:CncMachine.Z" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>
